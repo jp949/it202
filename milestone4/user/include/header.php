@@ -54,6 +54,8 @@ $ns = ucwords($_SESSION['name']);
               <a class="btn btn-outline-info my-2 my-sm-0" href="../user/accounts.php" >Accounts</a>
               <a class="btn btn-outline-info my-2 my-sm-0" href="../user/deposit.php" >Deposit</a>
               <a class="btn btn-outline-info my-2 my-sm-0" href="../user/transfer.php" >Withdraw Transfer</a>
+              <a class="btn btn-outline-info my-2 my-sm-0" href="../user/profile.php" >Profile</a>
+              <a class="btn btn-outline-info my-2 my-sm-0" href="../user/loan.php" >Loan</a>
           </ul>
           <a class="btn btn-outline-info my-2 my-sm-0" href="../include/logout.php" >Logout</a>
 

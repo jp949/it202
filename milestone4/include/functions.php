@@ -86,10 +86,14 @@ function logout() {
 }
 
 function connect() {
-    $dbHost = 'localhost';
+/*    $dbHost = 'localhost';
     $dbUsername = 'root';
     $dbPassword = '';
-    $dbName = 'rbac';
+    $dbName = 'rbac';*/
+    $dbHost = 'sql1.njit.edu';
+    $dbUsername = 'jp949';
+    $dbPassword = '123J@P456jeet';
+    $dbName = 'jp949';
     return new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 }
 
